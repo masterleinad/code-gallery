@@ -48,13 +48,13 @@ More detailed properties of the code in CeresFE
 Description of files in repo
 ----------------------------
 
-* src/ceres.cc 											Main code
-* support_code/config_in.h					Reads config file and intializes system parameters
-* support_code/ellipsoid_fit.h			Finds best-fit ellipse for surface and internal density boundaries.  Also uses deal.II
-* support_code/ellipsoid_grav.h			Analytically computes self gravity of layered ellipsoids structure
-* support_code/local_math.h					Defines some constants for convenience
-* meshes/sample_CeresFE_mesh.inp		Sample input mesh
-* config/sample_CeresFE_config.cfg	Sample configurations file with simulation parameters
+* src/ceres.cc                     Main code
+* support_code/config_in.h         Reads config file and intializes system parameters
+* support_code/ellipsoid_fit.h     Finds best-fit ellipse for surface and internal density boundaries.  Also uses deal.II
+* support_code/ellipsoid_grav.h    Analytically computes self gravity of layered ellipsoids structure
+* support_code/local_math.h        Defines some constants for convenience
+* meshes/sample_CeresFE_mesh.inp   Sample input mesh
+* config/sample_CeresFE_config.cfg Sample configurations file with simulation parameters
 
 Other dependencies
 ------------------
